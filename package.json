@@ -1,0 +1,36 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "test": "jest",
+    "test:watch": "npm run test -- --watch",
+    "test:ex1": "npm run test:watch -- ./src/ex1/",
+    "test:ex2": "npm run test:watch -- ./src/ex2/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tearingItUp786/ed_typescript_intro.git"
+  },
+  "author": "Taran Bains",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tearingItUp786/ed_typescript_intro/issues"
+  },
+  "homepage": "https://github.com/tearingItUp786/ed_typescript_intro#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.10.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.2",
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.8",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.3",
+    "typescript": "^3.1.1"
+  }
+}
