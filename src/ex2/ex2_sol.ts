@@ -23,21 +23,3 @@ export function concatStringArray(x: string[]): string {
   }
   return reducedValue;
 }
-
-function foo(oneThing: string, secondThing: string): string;
-function foo(oneThing: number, secondThing: number, thirdThing: string): string;
-
-function foo(oneThing: string | number, secondThing: string | number, thirdThing: string = ''): string {
-  if (typeof oneThing === 'string' && typeof secondThing === 'string') {
-    return `${oneThing} ${secondThing}`
-  }
-
-  if (typeof oneThing === 'number' && typeof secondThing == 'number') {
-    return `${oneThing + secondThing} ${thirdThing}`;
-  }
-
-  return 'final return';
-}
-
-console.log(foo(2, 2, 'test'));
-console.log(foo('2', '2'));
