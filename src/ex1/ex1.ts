@@ -5,3 +5,5 @@
 
 
 // export function multiply that takes in two numbers and returns the product
+
+export default 2;

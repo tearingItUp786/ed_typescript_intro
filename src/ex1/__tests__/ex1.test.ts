@@ -1,6 +1,7 @@
 import { add, subtract, multiply } from '../ex1';
 
 describe('Exercise One', () => {
+
   it('1 + 1 = 2', () => {
     expect(add(1, 1)).toBe(2);
   });
