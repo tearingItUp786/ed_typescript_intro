@@ -8,7 +8,8 @@
     "test": "jest",
     "test:watch": "npm run test -- --watch",
     "test:ex1": "npm run test:watch -- ./src/ex1/",
-    "test:ex2": "npm run test:watch -- ./src/ex2/"
+    "test:ex2": "npm run test:watch -- ./src/ex2/",
+    "test:ex3": "npm run test:watch -- ./src/ex3/"
   },
   "repository": {
     "type": "git",

@@ -3,7 +3,7 @@
 // add(1,1) === 2, add('1', '1') === '1, 1'; is the example output expected
 // For bonus points, overload the parameters at the top of the file
 
-// export addNumbersArray which takes in an array of numbers and returns the summed value (a number)
+// export add which takes in an array of numbers and returns the summed value (a number)
 // [1, 1, 1, 1] === 4
 
 // export concatStringArray which takes in an array of strings and returns a string
