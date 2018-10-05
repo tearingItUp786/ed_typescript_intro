@@ -1,4 +1,4 @@
-import { addNumbersArray, concatStringArray, add } from '../ex2_sol';
+import { addNumbersArray, concatStringArray, add } from '../ex2';
 describe('Exercise 2', () => {
 
   it('1 + 1 is still 2', () => {

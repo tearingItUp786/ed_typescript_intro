@@ -1,4 +1,4 @@
-import { Campaign, ActivityType } from '../ex3_sol';
+import { Campaign, ActivityType } from '../ex3';
 
 describe('Exercise 3', () => {
   var teacherActivity: {
